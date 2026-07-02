@@ -335,7 +335,7 @@ jobs:
 
 
   linux_thread_stress:
-    if: "github.repository == 'OpenMathLib/OpenBLAS'"
+    if: "github.repository == 'OpenMathLib/OpenBLAS' || github.repository == 'kumaraditya303/OpenBLAS'"
     name: ${{ matrix.check-name }}
     runs-on: ubuntu-latest
 
